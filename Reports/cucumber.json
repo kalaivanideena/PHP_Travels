@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "User checks if he is able to provide email id to login",
+        "description": "",
+        "id": "this-feature-file-has-validations-related-to-login-page-like;user-checks-if-he-is-able-to-provide-email-id-to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17155546997,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Login page URL is launched in the browser",
+            "match": {
+              "location": "PHP_LoginValidations_PageNavigations.login_page_URL_is_launched_in_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5724800150,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters invalid email ID in the Email address field",
+            "match": {
+              "location": "PHP_LoginValidations_PageNavigations.user_enters_invalid_email_ID_in_the_Email_address_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3684752625,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters password in the Password field",
+            "match": {
+              "location": "PHP_LoginValidations_PageNavigations.user_enters_password_in_the_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585609108,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks Login button on the Login page",
+            "match": {
+              "location": "PHP_LoginValidations_PageNavigations.user_clicks_Login_button_on_the_Login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2064708775,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user checks if the system throws error",
+            "match": {
+              "location": "PHP_LoginValidations_PageNavigations.user_checks_if_the_system_throws_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TC2"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file has validations related to login page like",
+    "description": "checking user ID, password field and other validations.",
+    "id": "this-feature-file-has-validations-related-to-login-page-like",
+    "keyword": "Feature",
+    "uri": "PHP_Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginPageValidation"
+      }
+    ]
+  }
+]

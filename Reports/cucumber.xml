@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.215418">
+<testcase classname="This feature file has validations related to login page like" name="User checks if he is able to provide email id to login" time="29.215418">
+<system-out><![CDATA[When Login page URL is launched in the browser..............................passed
+And User enters invalid email ID in the Email address field.................passed
+And User enters password in the Password field..............................passed
+And User clicks Login button on the Login page..............................passed
+Then user checks if the system throws error.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
